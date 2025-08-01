@@ -1,6 +1,6 @@
 import './styles.css';
 import React, { useContext } from 'react';
-import { CoinsContext } from '../../context/coinsContext';
+import { CoinsContext } from '../../context/CoinsContext';
 import { useFilterCoins } from '../../helpers/hoc/useFilterCoins';
 
 const FilterBlock = ({ setCoins }) => {
